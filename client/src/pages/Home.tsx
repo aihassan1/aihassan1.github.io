@@ -416,23 +416,33 @@ export default function Home() {
                 <div className="flex justify-between items-start">
                   <div>
                     <CardTitle>Google Project Management Certificate</CardTitle>
-                    <CardDescription>Google</CardDescription>
+                    <CardDescription>Google via Coursera</CardDescription>
                   </div>
-                  <Badge variant="secondary">May 2022 – Nov 2022</Badge>
+                  <Badge variant="secondary">Nov 2022</Badge>
                 </div>
               </CardHeader>
+              <CardContent>
+                <a href="https://www.credly.com/badges/e5740807-0e91-4375-b8c2-b63cb22732ee/public_url" target="_blank" rel="noopener noreferrer" className="text-xs text-primary flex items-center gap-1">
+                  View Certificate <ExternalLink className="w-3 h-3" />
+                </a>
+              </CardContent>
             </Card>
 
             <Card>
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle>Learn How to Learn</CardTitle>
-                    <CardDescription>Coursera</CardDescription>
+                    <CardTitle>Learning How to Learn</CardTitle>
+                    <CardDescription>Deep Teaching Solutions via Coursera</CardDescription>
                   </div>
-                  <Badge variant="secondary">2023</Badge>
+                  <Badge variant="secondary">Oct 2022</Badge>
                 </div>
               </CardHeader>
+              <CardContent>
+                <a href="https://www.coursera.org/account/accomplishments/verify/9E89FUUWE64C" target="_blank" rel="noopener noreferrer" className="text-xs text-primary flex items-center gap-1">
+                  View Certificate <ExternalLink className="w-3 h-3" />
+                </a>
+              </CardContent>
             </Card>
 
             <Card>
@@ -457,11 +467,33 @@ export default function Home() {
                 <div className="flex justify-between items-start">
                   <div>
                     <CardTitle>Introduction to Negotiation</CardTitle>
-                    <CardDescription>Yale University</CardDescription>
+                    <CardDescription>Yale University via Coursera</CardDescription>
                   </div>
-                  <Badge variant="secondary">2021</Badge>
+                  <Badge variant="secondary">Sep 2022</Badge>
                 </div>
               </CardHeader>
+              <CardContent>
+                <a href="https://www.coursera.org/account/accomplishments/verify/WUMTM2Z8V2WU" target="_blank" rel="noopener noreferrer" className="text-xs text-primary flex items-center gap-1">
+                  View Certificate <ExternalLink className="w-3 h-3" />
+                </a>
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <CardTitle>Introduction to Psychology</CardTitle>
+                    <CardDescription>Yale University via Coursera</CardDescription>
+                  </div>
+                  <Badge variant="secondary">May 2023</Badge>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <a href="https://www.coursera.org/account/accomplishments/verify/KCDYKGN5DML9" target="_blank" rel="noopener noreferrer" className="text-xs text-primary flex items-center gap-1">
+                  View Certificate <ExternalLink className="w-3 h-3" />
+                </a>
+              </CardContent>
             </Card>
           </div>
         </div>
