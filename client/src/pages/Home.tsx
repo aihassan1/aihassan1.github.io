@@ -42,9 +42,7 @@ export default function Home() {
                 Abdelrahman Ibrahim Hassan
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Backend Developer with experience building scalable systems using Node.js, NestJS, MongoDB, and PostgreSQL. 
-              Skilled in API design and service-layer architecture for high-traffic applications (~20K+ users). 
-              Strong team collaborator focusing on clean, maintainable code.
+              Specialized Backend Engineer with proven expertise in building production-ready systems using Node.js, NestJS, MongoDB, and PostgreSQL. Skilled in designing scalable RESTful APIs, implementing clean architecture patterns, and integrating third-party services (Shopify, WooCommerce) for enterprise applications. Passionate about writing maintainable, well-tested code and delivering high-performance solutions that serve thousands of concurrent users.
               </p>
               <div className="flex flex-wrap gap-4">
               <Button onClick={() => scrollToSection('contact')} size="lg" className="gap-2">
