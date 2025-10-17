@@ -121,10 +121,10 @@ export default function Home() {
                 <div>
                   <div className="flex justify-between mb-1">
                     <span className="text-sm">English</span>
-                    <span className="text-sm text-muted-foreground">Fluent</span>
+                    <span className="text-sm text-muted-foreground">Fluent - C2 Proficient</span>
                   </div>
                   <div className="h-2 bg-secondary rounded-full">
-                    <div className="h-full w-[90%] bg-primary rounded-full"></div>
+                    <div className="h-full w-[95%] bg-primary rounded-full"></div>
                   </div>
                 </div>
               </div>
@@ -151,10 +151,11 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Built and maintained scalable backend systems using NestJS, MongoDB, and PostgreSQL, supporting thousands of concurrent user interactions for high-traffic platforms</li>
-                  <li>• Partnered with frontend developers, QA, and tech leads to ensure end-to-end delivery of backend features across ~3 functional teams per project</li>
-                  <li>• Designed and improved ~60 backend API endpoints with a focus on clean architecture, modularity, and future maintainability across multiple ongoing projects</li>
-                  <li>• Collaborated with a cross-functional team of 4 to refactor and optimize the Saldwich app, serving ~20K users/month, over 6 months to improve scalability and backend efficiency</li>
+                  <li>• Architected and maintained scalable backend systems using NestJS, MongoDB, and PostgreSQL, supporting high-traffic platforms with thousands of concurrent user interactions</li>
+                  <li>• Collaborated with cross-functional teams including frontend developers, QA engineers, and technical leads to deliver robust backend solutions across multiple enterprise-level projects</li>
+                  <li>• Developed expertise in clean architecture principles, modular design patterns, and RESTful API best practices while working on diverse e-commerce, food delivery, and travel booking platforms</li>
+                  <li>• Enhanced system performance through database query optimization, efficient caching strategies, and implementing comprehensive data validation and authorization layers</li>
+                  <li>• Gained hands-on experience with third-party API integrations (Shopify, WooCommerce), real-time data synchronization, and building production-ready microservices architecture</li>
                 </ul>
               </CardContent>
             </Card>
@@ -192,7 +193,12 @@ export default function Home() {
             <Card className="hover:border-primary transition-colors">
               <CardHeader>
                 <div className="flex justify-between items-start">
-                  <CardTitle className="text-xl">CLO - E-commerce Platform</CardTitle>
+                  <div>
+                    <CardTitle className="text-xl">CLO - E-commerce Platform</CardTitle>
+                    <a href="https://cloapp.me/en/" target="_blank" rel="noopener noreferrer" className="text-xs text-primary flex items-center gap-1 mt-1">
+                      View Live <ExternalLink className="w-3 h-3" />
+                    </a>
+                  </div>
                   <Code2 className="w-5 h-5 text-primary" />
                 </div>
                 <CardDescription>Mobile e-commerce backend with third-party integrations</CardDescription>
@@ -427,6 +433,23 @@ export default function Home() {
                   <Badge variant="secondary">2023</Badge>
                 </div>
               </CardHeader>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <div className="flex justify-between items-start">
+                  <div>
+                    <CardTitle>EF SET English Certificate</CardTitle>
+                    <CardDescription>EF Standard English Test - C2 Proficient (76/100)</CardDescription>
+                  </div>
+                  <Badge variant="secondary">Mar 2024</Badge>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <a href="https://cert.efset.org/kCerxx" target="_blank" rel="noopener noreferrer" className="text-xs text-primary flex items-center gap-1">
+                  View Certificate <ExternalLink className="w-3 h-3" />
+                </a>
+              </CardContent>
             </Card>
 
             <Card>
