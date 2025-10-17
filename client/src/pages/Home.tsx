@@ -36,7 +36,7 @@ export default function Home() {
             <div className="order-2 md:order-1">
               <div className="flex items-center gap-2 mb-4">
                 <div className="h-1 w-12 bg-primary"></div>
-                <span className="text-primary text-sm font-medium">Backend Developer</span>
+                <span className="text-primary text-sm font-medium">Backend Engineer</span>
               </div>
               <h1 className="text-5xl md:text-6xl font-bold mb-6">
                 Abdelrahman Ibrahim Hassan
