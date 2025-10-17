@@ -32,20 +32,21 @@ export default function Home() {
       {/* Hero Section */}
       <section className="pt-32 pb-20">
         <div className="container">
-          <div className="max-w-3xl">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="h-1 w-12 bg-primary"></div>
-              <span className="text-primary text-sm font-medium">Backend Developer</span>
-            </div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Abdelrahman Ibrahim Hassan
-            </h1>
-            <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="order-2 md:order-1">
+              <div className="flex items-center gap-2 mb-4">
+                <div className="h-1 w-12 bg-primary"></div>
+                <span className="text-primary text-sm font-medium">Backend Developer</span>
+              </div>
+              <h1 className="text-5xl md:text-6xl font-bold mb-6">
+                Abdelrahman Ibrahim Hassan
+              </h1>
+              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               Backend Developer with experience building scalable systems using Node.js, NestJS, MongoDB, and PostgreSQL. 
               Skilled in API design and service-layer architecture for high-traffic applications (~20K+ users). 
               Strong team collaborator focusing on clean, maintainable code.
-            </p>
-            <div className="flex flex-wrap gap-4">
+              </p>
+              <div className="flex flex-wrap gap-4">
               <Button onClick={() => scrollToSection('contact')} size="lg" className="gap-2">
                 <Mail className="w-4 h-4" />
                 Get In Touch
@@ -53,14 +54,25 @@ export default function Home() {
               <Button onClick={() => scrollToSection('projects')} variant="outline" size="lg">
                 View Projects
               </Button>
-            </div>
-            <div className="flex gap-4 mt-8">
+              </div>
+              <div className="flex gap-4 mt-8">
               <a href="https://github.com/aihassan1" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <Github className="w-6 h-6" />
               </a>
               <a href="https://www.linkedin.com/in/abdelrahman-ibrahim-hassan/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <Linkedin className="w-6 h-6" />
               </a>
+              </div>
+            </div>
+            <div className="order-1 md:order-2 flex justify-center">
+              <div className="relative">
+                <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl"></div>
+                <img 
+                  src="/profile.png" 
+                  alt="Abdelrahman Ibrahim Hassan" 
+                  className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-primary/30 shadow-2xl"
+                />
+              </div>
             </div>
           </div>
         </div>
